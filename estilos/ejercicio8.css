@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    background-color: rgb(44, 44, 44);
+    color: aliceblue;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#galeria{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+}
+
+img{
+    width: 200px;
+    border: dotted 3px;
+}

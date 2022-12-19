@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    background-color: rgb(44, 44, 44);
+    color: aliceblue;
+    font-size: 30px;
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: rgb(199, 199, 199);
+    width: 180px;
+}
+
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+    font-size: 12px;
+}
+
+nav a:hover{
+    background-color: rgb(80, 80, 80);
+    color: rgb(161, 161, 161);
+}

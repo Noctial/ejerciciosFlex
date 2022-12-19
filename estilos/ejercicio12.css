@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    padding: 15px;
+    width: 100%;
+}
+
+
+section h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+section p {
+    text-align: justify;
+}
+
+section img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+#polonia {
+    background-color: #7ebdbb;
+}
+
+#oporto {
+    background-color: #b6ebb3;
+}
+
+#malta {
+    background-color: #bacee3;
+}
